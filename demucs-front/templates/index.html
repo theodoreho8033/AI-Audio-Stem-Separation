@@ -1,0 +1,45 @@
+<!doctype html>
+<!--
+ Copyright 2021 Google LLC
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<html>
+
+<head>
+  <title>Datastore and Firebase Auth Example</title>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+  
+
+    <h1>A UI for Separating Vocals</h1>
+    <h3>Instructions</h3>
+    <p>Upload an mp3 file and submit. Server processing should take around 2 minutes on cold start and less than one minute otherwise.</p>
+    <p>44.1 khz and ~3min of audio works best. Link below for easy downloading</p>
+    <u>https://spotifydown.com/</u>
+    <div id=main>
+    <p>Upload here:</p>
+    <input type="file" id="upload" />
+    <button id=submit onclick="submit_audio()">Submit</button>
+  </div>
+
+
+</body>
+
+</html>
