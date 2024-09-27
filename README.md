@@ -6,6 +6,6 @@ Music stem separation is a machine learning process of isolating instruments or 
 
 Information on the model deployed (used Hdemucs v3): https://github.com/facebookresearch/demucs
 
-Deployment link: https://autoboom-430119.uc.r.appspot.com/
-
 Video Presentation: https://youtu.be/zVlwmV_lMZM
+
+Contact me for deployment link.
